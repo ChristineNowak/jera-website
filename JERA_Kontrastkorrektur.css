@@ -1,0 +1,7 @@
+/* JERA – gezielte WCAG-AA-Kontrastkorrektur, ohne Layoutänderungen.
+   Am Ende von jera-design.css einfügen. */
+.card .num { color: #925541; }
+.step::before { color: #925541; }
+.cta .eyebrow { color: #814535; }
+/* Fokusrahmen ist ein UI-Indikator; dunkler für bessere Erkennbarkeit. */
+a:focus-visible, button:focus-visible { outline-color: #874634; }
